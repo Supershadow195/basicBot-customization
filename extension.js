@@ -53,10 +53,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "SupahBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        maximumAfk: 90,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -66,7 +66,7 @@
         cycleGuard: true,
         maximumCycletime: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 5.5,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -84,11 +84,11 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Dubstep, Electric, that sorta stuff. Enjoy!",
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
-        opLink: null,
+        welcome: false,
+        opLink: ,
         rulesLink: null,
         themeLink: null,
         fbLink: null,
@@ -100,11 +100,11 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            OP: "https://rawgit.com/Supershadow195/basicBot-customization/master/blacklists/OPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Supershadow195/basicBot/master/basicBot.js', extend);
 
 }).call(this);
