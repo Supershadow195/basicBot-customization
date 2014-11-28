@@ -88,7 +88,7 @@
         filterChat: true,
         etaRestriction: false,
         welcome: false,
-        opLink: ,
+        opLink: null,
         rulesLink: null,
         themeLink: null,
         fbLink: null,
