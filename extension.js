@@ -93,7 +93,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: http://mc-barbercraft.com/,
+        website: "mc-barbercraft.com",
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
