@@ -88,7 +88,7 @@
         filterChat: true,
         etaRestriction: false,
         welcome: false,
-        opLink: null,
+        opLink: "https://goo.gl/nFi1E6",
         rulesLink: null,
         themeLink: null,
         fbLink: null,
